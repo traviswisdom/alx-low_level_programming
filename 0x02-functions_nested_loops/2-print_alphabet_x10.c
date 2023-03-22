@@ -1,18 +1,25 @@
 #include <unistd.h>
 #include "main.h"
 /**
- * print_alphabet - wrietes the characters
+ * print_alphabet_x10 - Entry point
  *
- * Return: On success 1.
+ * Return: 1 on success
  */
-void print_alphabet(void)
+void print_alphabet_x10(void)
 {
-	char k = 'a';
+	int ice = 1;
 
-	while (i >= 'x')
+	while (ice <= 10)
 	{
-		_putchar(k);
-		k--;
+		char joe = 'a';
+
+		while (joe <= 'z')
+		{
+			_putchar(j);
+			joe++;
+		}
+
+		_putchar('\n');
+		ice++;
 	}
-	_putchar('\n');
 }
