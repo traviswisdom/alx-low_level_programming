@@ -1,16 +1,17 @@
-#include "main.h" 
-/** 
- * _isupper - Entry 
- * Retrn : Always 0  success
- * @c: The input 
+#include "main.h"
+/**
+ * _isupper - Entry
+ * Return: Always 0 success
+ * @c: The input
  */
-
-int _isuper (int c)
-
-	if (c >= 'A'  && c <= 'z'){
+int _isupper(int c)
+{
+	if (c >= 'A'  && c <= 'z')
+	{
 		return (1);
 	}
 	else
 	{
-	       	return (0);
+		return (0);
 	}
+}
