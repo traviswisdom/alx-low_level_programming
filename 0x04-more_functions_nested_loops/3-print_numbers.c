@@ -1,16 +1,15 @@
-#include "main.h"
+#include "holberton.h"
 /**
- * print_numbers -  checks for checks for a digit (0 through 9).
- *
+ * _isdigit -  checks for checks for a digit (0 through 9).
+ * @c: c -  Variable
  * Return: Always 0.
  */
-void print_numbers(void)
+int _isdigit(int c)
 {
-	int a;
-
-	for (a = 48; a < 58; a++)
+	if(c >= 48 && c <= 57)
 	{
-		_putchar(a);
+		return (1);
+
 	}
-	_putchar('\n');
+	return (0);
 }
