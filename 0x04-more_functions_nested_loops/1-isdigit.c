@@ -1,12 +1,12 @@
 #include "main.h"
 /**
- * _isupper - Entry
+ * _isdigit - Is the entry point
+ * @c: is the input
  * Return: Always 0 success
- * @c: The input
  */
-int _isupper(int c)
+int _isdigit(int c)
 {
-	if (c >= 'A'  && c <= 'z')
+	if (c >= '0' && c <= '9')
 	{
 		return (1);
 	}
