@@ -1,19 +1,18 @@
+#include "main.h"
 #include <stdio.h>
+
 /**
- * print_to_98 - entry
- * return: always important
+ * print_numbers - Print numbers between 0 to 9 incl.
+ *
+ * Return: Void.
  */
-void print_to_98(int n)
+void print_numbers(void)
 {
-	for ( int i = n ; i <= 98 ; i++)
+	int i;
+
+	for (i = 0; i < 10; i++)
 	{
-		printf("%d", i);
-		if (i != 98)
-		{
-			printf(",");
-			printf(" ");
-		}
+		_putchar(i + '0');
 	}
-	printf("\n");
-	return (n);
+	_putchar('\n');
 }
